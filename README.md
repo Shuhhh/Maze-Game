@@ -1,8 +1,8 @@
 
-# TheLionKingMaze
+# The Lion King Maze
 A client-server maze game. 
 
-# Generate a maze and movement with the mouse
+# Generate a new random maze and try to solve it
 
 By running the project the game will appear.
 The default maze is 10*10.
@@ -15,15 +15,16 @@ You can use the mouse to move or by the keyboard (as you wish).
 
 # Getting the path (solutions)
 
-By pressing "solving the maze" (in the left bar), you can show the path from the beginning to the end.
+By pressing "solving the maze" (in the left bar), the solution will appear on the maze.
+The solution uses search algorithms - Breadth first search/Best first search/Depth first search.
 
 <p align="center">
 <img src="https://media.giphy.com/media/3pT4355o5SzU1Alscf/giphy.gif" width="60%"></p>
 
 
-# Save as
+# Save the maze
 
-By pressing "File" (in the main bar), then "Save" you can save a specific maze.
+By pressing "File" (in the main bar), then "Save" you can save a specific maze (your current maze).
 
 <p align="center">
 <img src="https://media.giphy.com/media/OrqmOKEOIaSgEj1Msj/giphy.gif" width="60%"></p>
@@ -31,7 +32,7 @@ By pressing "File" (in the main bar), then "Save" you can save a specific maze.
 
 # Load a maze
 
-By pressing "File" (in the main bar), then "Load" you can upload a specific maze you saved before.
+By pressing "File" (in the main bar), then "Load" you can upload a maze you saved from before.
 
 <p align="center">
 <img src="https://media.giphy.com/media/QMHC0TgLVzJmnMCUSJ/giphy.gif" width="60%"></p>
@@ -39,13 +40,15 @@ By pressing "File" (in the main bar), then "Load" you can upload a specific maze
 
 # Technologies:
 
-Java, GUI made with JavaFX and CSS. 
+* Object-oriented programming, Bridge design pattern, and search algorithms.
 
-Using Bridge design pattern, and search algorithms.
+* Compress and decompress algorithm.
 
-Using a software architectural pattern: Model–view–viewmodel (MVVM)
+* a software architectural pattern: Model–view–viewmodel (MVVM)
 
-# How to run the project 
+* programmed in Java, GUI made with JavaFX and CSS. 
+
+# How you should run the project 
 
 1. Clone or download the project.
 2. To run the project go to src folder, then run Main class.**
