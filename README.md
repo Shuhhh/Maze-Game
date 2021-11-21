@@ -1,6 +1,6 @@
 
 # The Lion King Maze
-A client-server maze game. 
+A multithreaded client-server maze game which includes Object Oriented Programming, design patterns, search algorithms, compress and decompress methods and unit testing. 
 
 # Generate a new random maze and try to solve it
 
